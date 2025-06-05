@@ -425,6 +425,10 @@ a {
     flex-shrink: 0;
 }
 
+.feedback-item {
+    display: flex;
+}
+
 .feedback-item .avatar {
     width: 72px;
     height: 72px;
