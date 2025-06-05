@@ -483,3 +483,52 @@ a {
     line-height: 1.54;
     color: #fff;
 }
+
+/* Fearues */
+
+.fearues {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.fearues .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fearues .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.fearues .images img{
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.fearues img.lower {
+    margin-top: 34px;
+}
+
+.fearues .content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fearues .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.fearues .content .cta-btn {
+    min-width: 137px;
+    color: #fff;
+    background: var(--primary);
+}
